@@ -11,8 +11,8 @@
 # Anders Jensen-Urstad <anders@unix.se>
 # License: MIT
 
-site_title=${_1600PR_SITE_TITLE:-"J. Random Photoblogger"} # <title> in HTML and RSS
-site_url=${_1600PR_SITE_URL:-"https://example.com/"}       # Absolute URL to photoblog; used for RSS
+site_title=${_1600PR_SITE_TITLE:-"hafur.photos - daily"} # <title> in HTML and RSS
+site_url=${_1600PR_SITE_URL:-"https://hafur.photos/"}       # Absolute URL to photoblog; used for RSS
 email=${_1600PR_EMAIL:-"foobar@example.com"}               # Email used in default menu HTML
 archive_page=${_1600PR_ARCHIVE_PAGE:-true}                 # If true, create archive page + thumbs.
 sizes=${_1600PR_SIZES:-"1920 1600 1280 800"}  # Image sizes to create (widths). Set to "" to disable.
@@ -22,7 +22,7 @@ db_file=${_1600PR_DB_FILE:-"./_1600pr.dat"}   # Path to the data file
 image_dir=${_1600PR_IMAGE_DIR:-"./images"}    # Directory where original images should be stored
 output_dir=${_1600PR_OUTPUT_DIR:-"./public"}  # Where to build the site
 
-default_menu="<a href=\"${web_root_path}\">home</a> <a href=\"${web_root_path}photo\">archive</a> <a href=\"mailto:${email}\">contact</a>"
+default_menu="<a href=\"${web_root_path}\">today</a> <a href=\"${web_root_path}photo\">archive</a> <a href=\"https://hafur.photos\">stories</a>"
 menu=${_1600PR_MENU:-"${default_menu}"} # Menu HTML
 
 ###########################################################################
