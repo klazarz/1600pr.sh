@@ -19,8 +19,8 @@ sizes=${_1600PR_SIZES:-"1920 1600 1280 800"}  # Image sizes to create (widths). 
 rss_items=${_1600PR_RSS_ITEMS:-10}            # Max number of items in RSS file
 web_root_path=${_1600PR_WEB_ROOT_PATH:-"/daily/"}   # Relative URL to site, e.g. / or /photoblog/; this affects links
 db_file=${_1600PR_DB_FILE:-"./_1600pr.dat"}   # Path to the data file
-image_dir=${_1600PR_IMAGE_DIR:-"./images"}    # Directory where original images should be stored
-output_dir=${_1600PR_OUTPUT_DIR:-"./public"}  # Where to build the site
+image_dir=${_1600PR_IMAGE_DIR:-"/Users/kevin/Desktop/daily-hafur/images"}    # Directory where original images should be stored
+output_dir=${_1600PR_OUTPUT_DIR:-"/Users/kevin/Desktop/daily-hafur/public"}  # Where to build the site
 
 default_menu="<a href=\"${web_root_path}\">today</a> <a href=\"${web_root_path}photo\">archive</a> <a href=\"https://hafur.photos\">stories</a>"
 menu=${_1600PR_MENU:-"${default_menu}"} # Menu HTML
